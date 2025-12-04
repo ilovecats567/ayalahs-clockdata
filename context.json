@@ -1,0 +1,194 @@
+{
+	"version": 2,
+	"last_updated_id": "2025-12-03-01",
+	"metadata": {
+		"school_id": 3,
+		"school_name": "Ayala High School",
+		"short_name": "AHS",
+		"timezone": "America/Los_Angeles"
+	},
+	
+	"announcements": [],
+	
+	"scheduling_rules": [
+		{
+			"matcher": "dayOfTheWeek",
+			"pattern": "1",
+			"schedule": "lateStart"
+		},
+		{
+			"matcher": "dayOfTheWeek",
+			"pattern": "2 -- 5",
+			"schedule": "regular"
+		}
+	],
+	
+	"schedules": [
+		{
+			"id": "noSchool",
+			"label": "No school",
+			"timings": [
+				{
+					"label": "No school",
+					"applies": "8:00 am -- 4:00 pm"
+				}
+			]
+		},
+		{
+			"id": "lateStart",
+			"label": "Late start",
+			"timings": [
+				{
+					"label": "Waiting for zero period",
+					"applies": "8:00 am -- 8:30 am",
+					"hideStart": true
+				},
+				{
+					"label": "Zero period",
+					"applies": "8:30 am -- 9:19 am"
+				},
+				{
+					"label": "Zero-1st passing period",
+					"applies": "9:19 am -- 9:25 am"
+				},
+				{
+					"label": "1st period",
+					"applies": "9:25 am -- 10:14 am"
+				},
+				{
+					"label": "1st-2nd passing period",
+					"applies": "10:14 am -- 10:20 am"
+				},
+				{
+					"label": "2nd period",
+					"applies": "10:20 am -- 11:09 am"
+				},
+				{
+					"label": "2nd-3rd passing period",
+					"applies": "11:09 am -- 11:15 am"
+				},
+				{
+					"label": "3rd period",
+					"applies": "11:15 am -- 12:04 pm"
+				},
+				{
+					"label": "3rd-4th passing period",
+					"applies": "12:04 pm -- 12:10 pm"
+				},
+				{
+					"label": "4th period (announcements)",
+					"applies": "12:10 pm -- 12:13 pm"
+				},
+				{
+					"label": "4th period",
+					"applies": "12:10 pm -- 1:02 pm"
+				},
+				{
+					"label": "Lunch",
+					"applies": "1:02 pm -- 1:32 pm"
+				},
+				{
+					"label": "Lunch-5th passing period",
+					"applies": "1:32 pm -- 1:38 pm"
+				},
+				{
+					"label": "5th period",
+					"applies": "1:38 pm -- 2:27 pm"
+				},
+				{
+					"label": "5th-6th passing period",
+					"applies": "2:27 pm -- 2:33 pm"
+				},
+				{
+					"label": "6th period",
+					"applies": "2:33 pm -- 3:22 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "3:22 pm -- 4:00 pm",
+					"hideEnd": true
+				}
+			]
+		},
+		{
+			"id": "regular",
+			"label": "Regular",
+			"timings": [
+				{
+					"label": "Waiting for zero period",
+					"applies": "7:00 am -- 7:32 am",
+					"hideStart": true
+				},
+				{
+					"label": "Zero period",
+					"applies": "7:32 am -- 8:29 am"
+				},
+				{
+					"label": "Zero-1st passing period",
+					"applies": "8:29 am -- 8:35 am"
+				},
+				{
+					"label": "1st period",
+					"applies": "8:35 am -- 9:32 am"
+				},
+				{
+					"label": "1st-2nd passing period",
+					"applies": "9:32 am -- 9:38 am"
+				},
+				{
+					"label": "2nd period",
+					"applies": "9:38 am -- 10:35 am"
+				},
+				{
+					"label": "2nd-3rd passing period",
+					"applies": "10:35 am -- 10:41 am"
+				},
+				{
+					"label": "3rd period",
+					"applies": "10:41 am -- 11:38 am"
+				},
+				{
+					"label": "3rd-4th passing period",
+					"applies": "11:38 am -- 11:44 am"
+				},
+				{
+					"label": "4th period (announcements)",
+					"applies": "11:44 am -- 11:49 am"
+				},
+				{
+					"label": "4th period",
+					"applies": "11:44 am -- 12:46 pm"
+				},
+				{
+					"label": "Lunch",
+					"applies": "12:46 pm -- 1:16 pm"
+				},
+				{
+					"label": "Lunch-5th passing period",
+					"applies": "1:16 pm -- 1:22 pm"
+				},
+				{
+					"label": "5th period",
+					"applies": "1:22 pm -- 2:19 pm"
+				},
+				{
+					"label": "5th-6th passing period",
+					"applies": "2:19 pm -- 2:25 pm"
+				},
+				{
+					"label": "6th period",
+					"applies": "2:25 pm -- 3:22 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "3:22 pm -- 4:00 pm",
+					"hideEnd": true
+				}
+			]
+		}
+	],
+	
+	"full_day_overrides": [],
+	
+	"timeframe_overrides": []
+}

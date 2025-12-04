@@ -1,4 +1,4 @@
-# ayalahs-clockdata
+# Ayala HS Clockdata
 
 Hi! This repository is home to the clockdata for Ayala High School.
 
