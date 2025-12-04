@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2025-12-03-01",
+	"last_updated_id": "2025-12-03-03",
 	"metadata": {
 		"school_id": 3,
 		"school_name": "Ayala High School",
@@ -424,7 +424,73 @@
 		}
 	],
 	
-	"full_day_overrides": [],
+	"full_day_overrides": [
+		{
+			"occasion": "Finals 1st block",
+			"applies": [
+				"2025-12-16"
+			],
+			"schedule": "finalsBlockOne"
+		},
+		{
+			"occasion": "Finals 2nd block",
+			"applies": [
+				"2025-12-17"
+			],
+			"schedule": "finalsBlockTwo"
+		},
+		{
+			"occasion": "Winter Break",
+			"applies": [
+				"2025-12-18 -- 2025-12-19 | end",
+				"2025-12-22 -- 2025-12-26 | end",
+				"2025-12-29 -- 2026-01-02 | end"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Martin Luther King Jr. Day (no school)",
+			"applies": [
+				"2026-01-19"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Abraham Lincoln's Birthday (no school)",
+			"applies": [
+				"2026-02-09"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "George Washington's Birthday (no school)",
+			"applies": [
+				"2026-02-16"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Spring Break",
+			"applies": [
+				"2026-03-30 -- 2026-04-03 | end"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Easter Monday (no school)",
+			"applies": [
+				"2026-04-06"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Summer Break",
+			"applies": [
+				"2026-05-22 -- 2026-08-07 | end"
+			],
+			"schedule": "none"
+		}
+	],
 	
 	"timeframe_overrides": []
 }
