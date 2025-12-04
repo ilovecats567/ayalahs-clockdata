@@ -185,6 +185,242 @@
 					"hideEnd": true
 				}
 			]
+		},
+		{
+			"id": "rally",
+			"label": "Rally",
+			"timings": [
+				{
+					"label": "Waiting for zero period",
+					"applies": "7:00 am -- 7:43 am",
+					"hideStart": true
+				},
+				{
+					"label": "Zero period",
+					"applies": "7:43 am -- 8:29 am"
+				},
+				{
+					"label": "Zero-1st passing period",
+					"applies": "8:29 am -- 8:35 am"
+				},
+				{
+					"label": "1st period",
+					"applies": "8:35 am -- 9:21 am"
+				},
+				{
+					"label": "1st-2nd passing period",
+					"applies": "9:21 am -- 9:27 am"
+				},
+				{
+					"label": "2nd period",
+					"applies": "9:27 am -- 10:13 am"
+				},
+				{
+					"label": "2nd-3rd passing period",
+					"applies": "10:13 am -- 10:19 am"
+				},
+				{
+					"label": "3rd period",
+					"applies": "10:19 am -- 11:05 am"
+				},
+				{
+					"label": "3rd-4th passing period",
+					"applies": "11:05 am -- 11:11 am"
+				},
+				{
+					"label": "4th period",
+					"applies": "11:11 am -- 11:57 am"
+				},
+				{
+					"label": "4th-Rally passing period",
+					"applies": "11:57 am -- 12:03 pm"
+				},
+				{
+					"label": "Rally",
+					"applies": "12:03 pm -- 1:08 pm"
+				},
+				{
+					"label": "Lunch",
+					"applies": "1:08 pm -- 1:38 pm"
+				},
+				{
+					"label": "Lunch-5th passing period",
+					"applies": "1:38 pm -- 1:44 pm"
+				},
+				{
+					"label": "5th period",
+					"applies": "1:44 pm -- 2:30 pm"
+				},
+				{
+					"label": "5th-6th passing period",
+					"applies": "2:30 pm -- 2:36 pm"
+				},
+				{
+					"label": "6th period",
+					"applies": "2:36 pm -- 3:22 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "3:22 pm -- 4:00 pm",
+					"hideEnd": true
+				}
+			]
+		},
+		{
+			"id": "minimum",
+			"label": "Minimum",
+			"timings": [
+				{
+					"label": "Waiting for zero period",
+					"applies": "7:00 am -- 7:47 am",
+					"hideStart": true
+				},
+				{
+					"label": "Zero period",
+					"applies": "7:47 am -- 8:29 am"
+				},
+				{
+					"label": "Zero-1st passing period",
+					"applies": "8:29 am -- 8:35 am"
+				},
+				{
+					"label": "1st period",
+					"applies": "8:35 am -- 9:17 am"
+				},
+				{
+					"label": "1st-2nd passing period",
+					"applies": "9:17 am -- 9:23 am"
+				},
+				{
+					"label": "2nd period",
+					"applies": "9:23 am -- 10:05 am"
+				},
+				{
+					"label": "2nd-3rd passing period",
+					"applies": "10:05 am -- 10:11 am"
+				},
+				{
+					"label": "3rd period",
+					"applies": "10:11 am -- 10:53 am"
+				},
+				{
+					"label": "3rd-4th passing period",
+					"applies": "10:53 am -- 10:59 am"
+				},
+				{
+					"label": "4th period",
+					"applies": "10:59 am -- 11:41 am"
+				},
+				{
+					"label": "4th-5th passing period",
+					"applies": "11:41 am -- 11:47 am"
+				},
+				{
+					"label": "5th period",
+					"applies": "11:47 am -- 12:29 pm"
+				},
+				{
+					"label": "5th-6th passing period",
+					"applies": "12:29 pm -- 12:35 pm"
+				},
+				{
+					"label": "6th period",
+					"applies": "12:35 pm -- 1:17 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "1:17 pm -- 2:00 pm",
+					"hideEnd": true
+				}
+			]
+		},
+		{
+			"id": "finalsBlockOne",
+			"label": "Finals block 1",
+			"timings": [
+				{
+					"label": "Waiting for 1st period",
+					"applies": "7:00 am -- 8:35 am",
+					"hideStart": true
+				},
+				{
+					"label": "1st period",
+					"applies": "8:35 am -- 10:04 am"
+				},
+				{
+					"label": "1st-3rd passing period",
+					"applies": "10:04 am -- 10:10 am"
+				},
+				{
+					"label": "3rd period",
+					"applies": "10:10 am -- 11:39 am"
+				},
+				{
+					"label": "Lunch",
+					"applies": "11:39 am -- 12:09 pm"
+				},
+				{
+					"label": "Lunch-5th passing period",
+					"applies": "12:09 pm -- 12:15 pm"
+				},
+				{
+					"label": "5th period",
+					"applies": "12:15 pm -- 1:44 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "1:44 pm -- 3:00 pm",
+					"hideEnd": true
+				}
+			]
+		},
+		{
+			"id": "finalsBlockTwo",
+			"label": "Finals block 2",
+			"timings": [
+				{
+					"label": "Waiting for zero period",
+					"applies": "6:00 am -- 7:00 am",
+					"hideStart": true
+				},
+				{
+					"label": "Zero period",
+					"applies": "7:00 am -- 8:29 am"
+				},
+				{
+					"label": "Zero-2nd passing period",
+					"applies": "8:29 am -- 8:35 am"
+				},
+				{
+					"label": "2nd period",
+					"applies": "8:35 am -- 10:04 am"
+				},
+				{
+					"label": "2nd-4th passing period",
+					"applies": "10:04 am -- 10:10 am"
+				},
+				{
+					"label": "4th period",
+					"applies": "10:10 am -- 11:39 am"
+				},
+				{
+					"label": "Lunch",
+					"applies": "11:39 am -- 12:09 pm"
+				},
+				{
+					"label": "Lunch-6th passing period",
+					"applies": "12:09 pm -- 12:15 pm"
+				},
+				{
+					"label": "6th period",
+					"applies": "12:15 pm -- 1:44 pm"
+				},
+				{
+					"label": "School's over!",
+					"applies": "1:44 pm -- 3:00 pm",
+					"hideEnd": true
+				}
+			]
 		}
 	],
 	
