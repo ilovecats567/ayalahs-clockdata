@@ -426,6 +426,13 @@
 	
 	"full_day_overrides": [
 		{
+			"occasion": "Finals Week Minimum Monday",
+			"applies": [
+				"2025-12-15"
+			],
+			"schedule": "minimum"
+		},
+		{
 			"occasion": "Finals 1st block",
 			"applies": [
 				"2025-12-16"
