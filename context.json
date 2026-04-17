@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2025-12-10-03",
+	"last_updated_id": "2026-04-17-01",
 	"metadata": {
 		"school_id": 3,
 		"school_name": "Ayala High School",
@@ -426,46 +426,11 @@
 	
 	"full_day_overrides": [
 		{
-			"occasion": "First Day of 2nd Semester",
+			"occasion": "Batman Spring Rally",
 			"applies": [
-				"2026-01-05"
+				"2026-04-17"
 			],
-			"schedule": "minimum"
-		},
-		{
-			"occasion": "Martin Luther King Jr. Day (no school)",
-			"applies": [
-				"2026-01-19"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Abraham Lincoln's Birthday (no school)",
-			"applies": [
-				"2026-02-09"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "George Washington's Birthday (no school)",
-			"applies": [
-				"2026-02-16"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Spring Break",
-			"applies": [
-				"2026-03-30 -- 2026-04-03 | end"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Easter Monday (no school)",
-			"applies": [
-				"2026-04-06"
-			],
-			"schedule": "noSchool"
+			"schedule": "rally"
 		},
 		{
 			"occasion": "Summer Break",
